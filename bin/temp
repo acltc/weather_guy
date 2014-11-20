@@ -16,4 +16,5 @@ elsif temp < 35 and temp > 0
 	puts "Bundle up!"
 else
 	puts "Don't go outside."
+end
 	
