@@ -3,5 +3,17 @@
 temp = ARGV[0]
 
 cels = (temp.to_i - 32) * 5 / 9
+kelv = (temp.to_i + 459.67) * 5 / 9
 
 puts "The temperature in Celsius is #{cels}."
+puts "The temperature in Kelvin is #{kelv}."
+
+if temp >= 65 and temp <= 100
+	puts "T-shirt weather!"
+elsif temp < 65 and temp >= 35
+	puts "Throw on a sweatshirt before going out."
+elsif temp < 35 and temp > 0
+	puts "Bundle up!"
+else
+	puts "Don't go outside."
+	
