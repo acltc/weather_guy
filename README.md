@@ -1,7 +1,6 @@
 # WeatherGuy
 
-TODO: Write a gem description
-
+Converts fahrenheit to celsius
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -20,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Type 'temp' into the terminal, then enter a temperature in fahrenheit to convert to celsius.
 
 ## Contributing
 

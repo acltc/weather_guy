@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = WeatherGuy::VERSION
   spec.authors       = ["mattcar"]
   spec.email         = ["matt.carroll89@gmail.com"]
-  spec.summary       = %q{weather guy here to give you your weather}
+  spec.summary       = %q{converts Fahrenheit to Celsius in your terminal}
   spec.description   = %q{n/a}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/mattcar/weather_guy"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
