@@ -4,8 +4,8 @@ require 'weather_guy'
 
 temp = ARGV[0]
 
-cels = WeatherGuy::Converter.new.convert_from_f_to_c(temp)
-kelv = WeatherGuy::Converter.new.convert_from_f_to_k(temp)
+cels = WeatherGuy::Converter.convert_from_f_to_c(temp)
+kelv = WeatherGuy::Converter.convert_from_f_to_k(temp)
 
 puts "The temperature in Celsius is #{cels}."
 puts "The temperature in Kelvin is #{kelv}."
