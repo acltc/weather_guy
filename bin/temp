@@ -1,9 +1,11 @@
 #!/usr/bin/env ruby
 
+require 'weather_guy'
+
 temp = ARGV[0]
 
-cels = (temp.to_i - 32) * 5 / 9
-kelv = (temp.to_i + 459.67) * 5 / 9
+cels = WeatherGuy::Converter.new.convert_from_f_to_c(temp)
+kelv = WeatherGuy::Converter.new.convert_from_f_to_k(temp)
 
 puts "The temperature in Celsius is #{cels}."
 puts "The temperature in Kelvin is #{kelv}."
